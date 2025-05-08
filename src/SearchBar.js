@@ -1,8 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import styles from './css/SearchBar.module.css'
 
-const CLIENT_ID = '202c6b42b7d84461b19d637d8abb2264';
-const CLIENT_SECRET = 'a1b1d8230a7f4d3790d920de9ec1fcef';
 
 function SearchBar({searchInput, setSearchInput, accessToken, setAccessToken, setTrack}){
     
