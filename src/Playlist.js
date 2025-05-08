@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import styles from './css/Playlist.module.css';
 
-const userId = '31tx4rzlczhz62dq4i77v43kiokq';
 
 //Use Post instead of fetch on line 25
 
