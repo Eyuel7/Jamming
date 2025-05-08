@@ -1,0 +1,30 @@
+.container{
+
+    min-width: 470px;
+    min-height: 500px;
+    margin: 80px 0 20px 0;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.container ul{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.container i{
+    margin-top: 15px;
+    float: right;
+}
+
+.container hr{
+    width: 400px;
+}
+
+span{
+    font-size: 11px;
+}
