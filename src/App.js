@@ -6,9 +6,6 @@ import SearchBar from './SearchBar.js';
 import styles from './css/App.module.css';
 import Playlist from './Playlist.js';
 
-const CLIENT_ID = '202c6b42b7d84461b19d637d8abb2264';
-const CLIENT_SECRET = 'a1b1d8230a7f4d3790d920de9ec1fcef';
-
 function App() {
 
   const [searchInput, setSearchInput] = useState('');
