@@ -1,0 +1,49 @@
+.container{
+
+    min-width: 470px;
+    min-height: 500px;
+    margin: 80px 10px 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+}
+
+.container input[type="text"]{
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.container input[type="submit"]{
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #a5ff38;
+}
+
+.container ul{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.container i{
+    margin-top: 15px;
+    float: right;
+}
+
+.container hr{
+    width: 400px;
+}
+
+.container span{
+    font-size: 11px;
+}
